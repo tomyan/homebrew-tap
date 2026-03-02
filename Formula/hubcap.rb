@@ -1,26 +1,26 @@
 class Hubcap < Formula
   desc "CLI for Chrome DevTools Protocol"
   homepage "https://github.com/tomyan/hubcap"
-  version "1.3.0"
+  version "1.3.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tomyan/hubcap/releases/download/v1.3.0/hubcap-v1.3.0-darwin-arm64.tar.gz"
-      sha256 "e7c9e57e15cb84f3dcf27d156793782509228bda15ca154aa3c249e84ad6dcce"
+      url "https://github.com/tomyan/hubcap/releases/download/v1.3.1/hubcap-v1.3.1-darwin-arm64.tar.gz"
+      sha256 "59dcc441f3b478552e6b832bb994d52eba35f18514dd79b9b0485d7701d097e8"
     else
-      url "https://github.com/tomyan/hubcap/releases/download/v1.3.0/hubcap-v1.3.0-darwin-amd64.tar.gz"
-      sha256 "02a45aedc9b19f8fd908dedc82f688824b19b2eb516000e769a6e186347e52df"
+      url "https://github.com/tomyan/hubcap/releases/download/v1.3.1/hubcap-v1.3.1-darwin-amd64.tar.gz"
+      sha256 "a7efa4731cbc2a51112f2befd6380578928393a12f2679b40cf6f73321f99c62"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tomyan/hubcap/releases/download/v1.3.0/hubcap-v1.3.0-linux-arm64.tar.gz"
-      sha256 "eab8442d1063d18c8a2f2ccbf6c57e1b97ac57d41ac1f5b9e94bd2dc861ee06c"
+      url "https://github.com/tomyan/hubcap/releases/download/v1.3.1/hubcap-v1.3.1-linux-arm64.tar.gz"
+      sha256 "bfd5bcceacfd72e80e1b3d1fa470f7b69f818b729acaf514e5af598046d7f98a"
     else
-      url "https://github.com/tomyan/hubcap/releases/download/v1.3.0/hubcap-v1.3.0-linux-amd64.tar.gz"
-      sha256 "ea4e6e9fd9878b74a98b102290ee38db09602d1c30edcc48311a3b154ad16d5a"
+      url "https://github.com/tomyan/hubcap/releases/download/v1.3.1/hubcap-v1.3.1-linux-amd64.tar.gz"
+      sha256 "3b16bf76365f95da2f8167e7fa9b0f03594ae397569bdec80baab829183348c7"
     end
   end
 
