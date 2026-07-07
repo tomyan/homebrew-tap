@@ -1,8 +1,8 @@
 class Sumi < Formula
   desc "Declarative TTY framework for Go - terminal UIs with HTML and CSS"
   homepage "https://gosumi.dev"
-  url "https://github.com/tomyan/sumi/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "feed3145657c0b424eb674b3fee49c38e239b0732bce5ce9d801a238c5379a2a"
+  url "https://github.com/tomyan/sumi/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "a086dcd461db63240e7d5cf14170c10319ffc20009adc229e5d8bd659219323c"
   license "MIT"
   head "https://github.com/tomyan/sumi.git", branch: "main"
 
